@@ -9,8 +9,6 @@ function counterReducer(state = 0, action) {
       return state - 1
     }
 
-  
-  
     return state
   }
   
