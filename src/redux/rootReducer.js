@@ -3,7 +3,6 @@ import {CHANGE_THEME, DECREMENT, INCREMENT} from './types'
 
 function counterReducer(state = 0, action) {
     if (action.type === INCREMENT) {
-        console.log(state)
       return state + 1
     } else if (action.type === DECREMENT) {
       return state - 1
